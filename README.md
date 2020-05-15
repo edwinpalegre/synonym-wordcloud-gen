@@ -3,7 +3,7 @@ A simple word cloud generator based on the WordCloud package on Python. Enhnaced
 
 Dependencies 
 * Numpy
-* Pandas (not used in current iteration
+* Pandas (not used in current iteration)
 * NLTK
 * WorcCloud
 * Matplotlib
@@ -17,6 +17,6 @@ An example is shown below with the key words: Integrity, Honesty, Inclusion, Per
 ![Example Word Cloud](https://github.com/edwinpalegre/synonym-wordcloud-gen/blob/master/example.png)
 
 # Outstanding Issues
-* Current code pulls ALL possibls synonyms from Word Net. Next step insludes finding a better approach that can be used to make the synonyms more relevant to the situation. Las time, we used raw_input.n.01 which is the first noun. Since the uses for these words are all adjectives, that might be a possible avenue to try and fix
+* Current code pulls ALL possible synonyms from Word Net. Next step insludes finding a better approach that can be used to make the synonyms more relevant to the situation. Las time, we used raw_input.n.01 which is the first noun. Since the uses for these words are all adjectives, that might be a possible avenue to try and fix
 
 * Frequency of the key words seems to get altered when merging the lst and add_syn dictionaries together into the word_lst dictionary. The word_lst dictionary overwrites some of the keywords' values to reflect the default value given to the synonyms. Despite going through and removing duplicates of the key words from the two libraries prior to merging, this is still the outstanding issue to fix.
